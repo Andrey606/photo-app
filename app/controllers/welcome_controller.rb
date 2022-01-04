@@ -13,15 +13,17 @@ class WelcomeController < ApplicationController
   private
 
   def send_email
-    to = Email.new(email: 'test@example.com')
-    subject = 'Sending with SendGrid is Fun'
-    content = Content.new(type: 'text/plain', value: 'and easy to do anywhere, even with Ruby')
-    mail = Mail.new(from, to, subject, content)
+    from = SendGrid::Email.new(email: 'andreykuluev96@gmail.com')
+    to = SendGrid::Email.new(email: 'akuluev@ukr.net')
+    subject = 'Sending with Twilio SendGrid is no Fun'
+    content = SendGrid::Content.new(type: 'text/plain', value: 'and easy to do anywhere, even with Ruby')
+    mail = SendGrid::Mail.new(from, subject, to, content)
 
     sg = SendGrid::API.new(api_key: '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')
     response = sg.client.mail._('send').post(request_body: mail.to_json)
     puts response.status_code
     puts response.body
+    # puts response.parsed_body
     puts response.headers
   end
 end
