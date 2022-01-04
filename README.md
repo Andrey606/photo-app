@@ -13,3 +13,5 @@
     :authentication       => "plain",
     :enable_starttls_auto => true
   }
+
+### for payments we use stripe.com
