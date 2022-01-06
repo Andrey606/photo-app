@@ -88,6 +88,10 @@ GEM
       responders
       warden (~> 1.2.3)
     devise-bootstrap-views (1.1.0)
+    dotenv (2.7.6)
+    dotenv-rails (2.7.6)
+      dotenv (= 2.7.6)
+      railties (>= 3.2)
     erubi (1.10.0)
     execjs (2.8.1)
     ffi (1.15.4)
@@ -202,6 +206,7 @@ GEM
       activesupport (>= 5.2)
       sprockets (>= 3.0.0)
     sqlite3 (1.4.2)
+    stripe (5.42.0)
     thor (1.1.0)
     tilt (2.0.10)
     turbolinks (5.2.1)
@@ -246,6 +251,7 @@ DEPENDENCIES
   capybara (>= 3.26)
   devise
   devise-bootstrap-views
+  dotenv-rails
   jbuilder (~> 2.7)
   jquery-rails
   listen (~> 3.3)
@@ -258,6 +264,7 @@ DEPENDENCIES
   sendgrid-ruby
   spring
   sqlite3 (~> 1.4)
+  stripe
   turbolinks (~> 5)
   twitter-bootstrap-rails
   tzinfo-data

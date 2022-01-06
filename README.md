@@ -15,3 +15,5 @@
   }
 
 ### for payments we use stripe.com
+
+### use dotenv gem for variables
