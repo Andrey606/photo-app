@@ -1,13 +1,15 @@
 class RegistrationsController < Devise::RegistrationsController
   def create
+    # will be the similar to user = User.new(sign_up_params) (it is devise gem)
     build_resource(sign_up_params)
 
+    # resource will be an instance of User
     resource.class.transaction do
       resource.save
       yield resource if block_given?
       if resource.persisted?
         @payment = Payment.new({ email: params["user"]["email"],
-                                 token: params[:payments]["token"],
+                                 token: params[:payment]["token"],
                                  user_id: resource.id })
         flash[:error] = "Please check registrations errors" unless @payment.valid?
 
