@@ -17,3 +17,6 @@
 ### for payments we use stripe.com
 
 ### use dotenv gem for variables
+
+### need to install for resizing images (gem mini_magick)
+brew install imagemagick
