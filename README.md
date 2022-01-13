@@ -20,3 +20,12 @@
 
 ### need to install for resizing images (gem mini_magick)
 brew install imagemagick
+
+### use aws services for storing images on production and s3 bucket
+1) created IAM user
+2) create S3 bucket
+3) gave my user acces to s3 bucket
+
+heroku config:set S3_ACCESS_KEY=AKIAYNV274XC27T22YOU
+heroku config:set S3_SECRET_KEY=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
+heroku config:set S3_BUCKET=andrews-photo-app-bucket
