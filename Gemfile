@@ -33,6 +33,7 @@ gem 'jbuilder', '~> 2.7'
 gem 'carrierwave' # image uploader gem
 gem 'mini_magick' # image resizing gem
 gem 'fog' # to working with images in production
+gem 'fog-aws'
 
 # Use Active Storage variant
 # gem 'image_processing', '~> 1.2'

@@ -26,6 +26,6 @@ brew install imagemagick
 2) create S3 bucket
 3) gave my user acces to s3 bucket
 
-heroku config:set S3_ACCESS_KEY=AKIAYNV274XCVFJXATNK
-heroku config:set S3_SECRET_KEY=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
+heroku config:set S3_ACCESS_KEY=AKIAYNV274XCVI42R6FC
+heroku config:set S3_SECRET_KEY=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
 heroku config:set S3_BUCKET=andrews-photo-app-bucket
