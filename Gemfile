@@ -25,7 +25,7 @@ gem 'jbuilder', '~> 2.7'
 gem 'carrierwave', '>= 3.0.0.rc', '< 4.0' # image uploader gem
 gem 'mini_magick' # image resizing gem
 # gem 'fog' # to working with images in production
-gem 'fog-aws'
+# gem 'fog-aws'
 
 gem 'devise'
 gem 'jquery-rails'
@@ -37,7 +37,7 @@ gem 'stripe'
 
 # gem 'ovirt-engine-sdk', '~> 4.2', '>= 4.2.4'
 
-gem 'fog'
+# gem 'fog'
 # gem 'fog-ovirt'
 
 # Use Active Storage variant
