@@ -35,6 +35,8 @@ gem 'sendgrid-ruby'
 gem 'dotenv-rails', groups: [:development, :test]
 gem 'stripe'
 
+gem 'ovirt-engine-sdk', '~> 4.2', '>= 4.2.4'
+
 gem 'fog', '~> 2.3.0'
 gem 'fog-ovirt', '~> 2.0.2'
 
