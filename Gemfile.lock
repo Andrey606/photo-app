@@ -548,6 +548,7 @@ DEPENDENCIES
   jquery-rails
   listen (~> 3.3)
   mini_magick
+  ovirt-engine-sdk (= 4.4.1)
   pg
   puma (~> 5.0)
   rack-mini-profiler (~> 2.0)
