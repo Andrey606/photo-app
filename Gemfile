@@ -13,6 +13,8 @@ gem 'dotenv-rails', groups: [:development, :test]
 
 gem 'stripe'
 
+gem 'ovirt-engine-sdk', '4.4.1', require: false
+
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails', branch: 'main'
 gem 'rails', '~> 6.1.4', '>= 6.1.4.1'
 # Use Puma as the app server
@@ -54,7 +56,7 @@ end
 
 group :production do
   # Use sqlite3 as the database for Active Record
-  gem 'pg'
+  gem 'pg', '1.2.3', require: false
 end
 
 group :development do
