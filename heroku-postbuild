@@ -1,5 +1,0 @@
-#!/bin/bash
-
-# Install specific gems with custom flags
-# gem install ovirt-engine-sdk:4.4.1 -- --with-cflags=-Drb_cData=rb_cObject
-# gem install pg:1.2.3 -- --with-cflags=-Drb_cData=rb_cObject
