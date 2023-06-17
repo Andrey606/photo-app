@@ -24,7 +24,7 @@ gem 'jbuilder', '~> 2.7'
 
 gem 'carrierwave' # image uploader gem
 gem 'mini_magick' # image resizing gem
-gem 'fog' # to working with images in production
+# gem 'fog' # to working with images in production
 gem 'fog-aws'
 
 gem 'devise'
@@ -34,6 +34,11 @@ gem 'devise-bootstrap-views'
 gem 'sendgrid-ruby'
 gem 'dotenv-rails', groups: [:development, :test]
 gem 'stripe'
+
+gem 'fog', '~> 2.3.0'
+gem 'fog-ovirt', '~> 2.0.2'
+gem 'ovirt-engine-sdk', '4.4.1'
+
 
 # Use Active Storage variant
 # gem 'image_processing', '~> 1.2'

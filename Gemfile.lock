@@ -550,12 +550,14 @@ DEPENDENCIES
   devise
   devise-bootstrap-views
   dotenv-rails
-  fog
+  fog (~> 2.3.0)
   fog-aws
+  fog-ovirt (~> 2.0.2)
   jbuilder (~> 2.7)
   jquery-rails
   listen (~> 3.3)
   mini_magick
+  ovirt-engine-sdk (= 4.4.1)
   pg
   puma (~> 5.0)
   rack-mini-profiler (~> 2.0)
