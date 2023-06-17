@@ -37,8 +37,7 @@ gem 'stripe'
 
 gem 'fog', '~> 2.3.0'
 gem 'fog-ovirt', '~> 2.0.2'
-gem 'ovirt-engine-sdk'
-
+gem 'ovirt-engine-sdk', '~> 4.0', '>= 4.0.6'
 
 # Use Active Storage variant
 # gem 'image_processing', '~> 1.2'
