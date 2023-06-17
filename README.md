@@ -30,4 +30,5 @@ heroku config:set S3_ACCESS_KEY=AKIAYNV274XCVI42R6FC
 heroku config:set S3_SECRET_KEY=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
 heroku config:set S3_BUCKET=andrews-photo-app-bucket
 
-test3
+# An error occurred while installing ovirt-engine-sdk (4.4.1), and Bundler cannot continue.
+gem install ovirt-engine-sdk:4.4.1 -- --with-cflags=-Drb_cData=rb_cObject
