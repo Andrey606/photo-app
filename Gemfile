@@ -13,7 +13,7 @@ gem 'dotenv-rails', groups: [:development, :test]
 
 gem 'stripe'
 
-gem 'ovirt-engine-sdk', '4.4.1', require: false
+gem 'ovirt-engine-sdk', require: false
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails', branch: 'main'
 gem 'rails', '~> 6.1.4', '>= 6.1.4.1'
