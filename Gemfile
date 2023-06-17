@@ -56,7 +56,7 @@ end
 
 group :production do
   # Use sqlite3 as the database for Active Record
-  gem 'pg', require: false
+  gem 'pg', '~> 1.2.3'
 end
 
 group :development do
