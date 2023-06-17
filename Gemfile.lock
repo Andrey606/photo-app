@@ -550,9 +550,9 @@ DEPENDENCIES
   devise
   devise-bootstrap-views
   dotenv-rails
-  fog (~> 2.3.0)
+  fog
   fog-aws
-  fog-ovirt (~> 2.0.2)
+  fog-ovirt
   jbuilder (~> 2.7)
   jquery-rails
   listen (~> 3.3)
