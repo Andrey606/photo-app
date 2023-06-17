@@ -34,4 +34,5 @@ heroku config:set S3_BUCKET=andrews-photo-app-bucket
 gem install ovirt-engine-sdk:4.4.1 -- --with-cflags=-Drb_cData=rb_cObject
 
 # An error occurred while installing pg (1.2.3), and Bundler cannot continue.
-gem install pg:1.2.3 -- --with-cflags=-Drb_cData=rb_cObject
+which pg_config
+gem install pg -- --with-pg-config='/opt/homebrew/bin/pg_config'
