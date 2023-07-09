@@ -1,24 +1,22 @@
-# README
+### README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+git push origin master
+git push heroku master
+heroku run rake db:migrate
+heroku run rails console
 
-Things you may want to cover:
+link: https://rails7-andrews-photo-app-b0e26baac650.herokuapp.com/
 
-* Ruby version
+logs: heroku logs --tail
 
-* System dependencies
+I have used amazon s3 bucket
 
-* Configuration
+### get credentials
 
-* Database creation
+# edit/create
+EDITOR="nano" rails credentials:edit
+# show
+rails credentials:show
 
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+config/credentials.yml.enc - encrypted file
+/config/master.key - file contains key for decryption should not be pushed to git! 
